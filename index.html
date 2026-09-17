@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosalie Corine Nkounghawe Tomeyum · Data Scientist & Ingénieure IA</title>
+  <meta name="description" content="Portfolio de Rosalie Corine Nkounghawe Tomeyum — Data Scientist, Machine Learning Engineer et Ingénieure IA. Computer Vision, NLP, deep learning de bout en bout.">
+  <meta name="author" content="Rosalie Corine Nkounghawe Tomeyum">
+  <link rel="canonical" href="https://rosaliedomaine.com/">
+
+  <!-- Aperçu lors du partage (LinkedIn, mail…) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rosaliedomaine.com/">
+  <meta property="og:title" content="Rosalie Corine Nkounghawe Tomeyum · Ingénieure IA">
+  <meta property="og:description" content="Data Scientist – ML Engineer – Ingénieure IA. Computer Vision (GREAH) et NLP (CIRAD), publication CNIA/PFIA 2026.">
+  <meta property="og:image" content="https://rosaliedomaine.com/assets/img/hero.webp">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <!-- Évite le flash de thème clair/sombre au chargement -->
+  <script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== Icônes (sprite SVG, réutilisées via <use>) ===== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
+    <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></symbol>
+    <symbol id="i-gauge" viewBox="0 0 24 24"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></symbol>
+    <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15l.7 1.8 1.8.7-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  </defs>
+</svg>
+
+<!-- ===== Navigation ===== -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#top" class="nav__brand"><span class="grad">RCNT</span> · Ingénieure IA</a>
+    <nav class="nav__links" id="navLinks" aria-label="Navigation principale">
+      <a href="#about">À propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#skills">Compétences</a>
+      <a href="#journey">Parcours</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Changer de thème">
+        <svg class="ico ico--sun"><use href="#i-sun"/></svg>
+        <svg class="ico ico--moon"><use href="#i-moon"/></svg>
+      </button>
+      <button class="icon-btn nav__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <svg class="ico"><use href="#i-menu"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container">
+      <span class="badge"><span class="badge__dot"></span>Disponible immédiatement</span>
+      <h1 class="hero__title">
+        Rosalie Corine<br>
+        <span class="grad">NKOUNGHAWE TOMEYUM</span>
+      </h1>
+      <p class="hero__role mono">Data Scientist – Machine Learning Engineer – Ingénieure IA</p>
+      <p class="hero__lead">
+        Je conçois des modèles de deep learning de bout en bout — préparation des données, entraînement,
+        évaluation rigoureuse et mise à disposition via une application ou une API. Deux expériences de
+        recherche appliquée en Computer Vision (GREAH) et en NLP (CIRAD), avec une publication scientifique à la clé.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="assets/cv/CV_Rosalie_Nkounghawe_Tomeyum.pdf" download>
+          <svg class="ico"><use href="#i-download"/></svg>Télécharger le CV
+        </a>
+        <a class="btn btn--ghost" href="#contact">
+          <svg class="ico"><use href="#i-mail"/></svg>Me contacter
+        </a>
+        <a class="btn btn--link" href="#projects">Explorer les projets <svg class="ico"><use href="#i-arrow"/></svg></a>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><strong>0,996</strong><span>AUC-ROC (OCTOPUS)</span></div>
+        <div class="stat"><strong>0,99</strong><span>AUC (SURSY)</span></div>
+        <div class="stat"><strong>1</strong><span>Publication CNIA 2026</span></div>
+      </div>
+
+      <figure class="hero__visual reveal">
+        <img src="assets/img/hero.webp" alt="Illustration : silhouette formée d'un réseau de neurones et de feuilles de posidonie"
+             width="480" height="480" onerror="this.remove()">
+        <figcaption class="hero__chip">
+          <strong>Master 2 EIDD</strong>
+          <span>Université Sorbonne Paris Nord</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== À propos ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="eyebrow">À propos</p>
+      <h2 class="section__title">Une démarche de bout en bout</h2>
+      <p class="section__lead">
+        Master 2 Informatique parcours EIDD (Université Sorbonne Paris Nord, soutenu en septembre 2026),
+        formée en sciences de l'ingénieur Data Science &amp; IA et en sciences des données. Mon exigence :
+        des modèles performants, mais surtout évalués honnêtement et réellement utilisables.
+      </p>
+
+      <div class="grid grid--2">
+        <article class="card reveal">
+          <svg class="ico ico--accent"><use href="#i-database"/></svg>
+          <h3>Données</h3>
+          <p>Nettoyage, déduplication, clustering et structuration de corpus multilingues ou d'images.</p>
+        </article>
+        <article class="card reveal">
+          <svg class="ico ico--accent"><use href="#i-cpu"/></svg>
+          <h3>Modélisation</h3>
+          <p>CNN, Transformers, SegFormer, SBERT : architectures comparées et ajustées sous PyTorch.</p>
+        </article>
+        <article class="card reveal">
+          <svg class="ico ico--accent"><use href="#i-gauge"/></svg>
+          <h3>Évaluation</h3>
+          <p>Validation croisée stratifiée, calibration de seuil, Dice/IoU, AUC-ROC et analyse d'erreurs.</p>
+        </article>
+        <article class="card reveal">
+          <svg class="ico ico--accent"><use href="#i-rocket"/></svg>
+          <h3>Déploiement</h3>
+          <p>Mise à disposition des modèles via applications Flask et APIs REST.</p>
+        </article>
+      </div>
+
+      <div class="pills">
+        <span class="pill"><strong>Français</strong> — Langue maternelle</span>
+        <span class="pill"><strong>Anglais</strong> — B2 · IELTS 5.5 (Speaking 6.0, Writing 6.0)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projets ===== -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <p class="eyebrow">Projets phares</p>
+      <h2 class="section__title">Projets &amp; recherche appliquée</h2>
+      <p class="section__lead">
+        Trois travaux menés de la donnée brute jusqu'à la mise en service, dont deux en contexte
+        de recherche européenne et institutionnelle.
+      </p>
+
+      <article class="project reveal">
+        <p class="project__tag mono">Computer Vision · Recherche</p>
+        <h3 class="project__title">Segmentation sémantique d'images sous-marines</h3>
+        <p class="project__org">GREAH – Université Le Havre Normandie · Projet européen OCTOPUS</p>
+        <p class="project__desc">Cartographie de la Posidonia oceanica par deep learning : comparaison de 4 familles
+          d'architectures et fiabilisation complète du protocole d'évaluation, jusqu'à une application d'inférence.</p>
+        <div class="metrics">
+          <div class="metric"><strong>0,996</strong><span>AUC-ROC</span></div>
+          <div class="metric"><strong>96,8 %</strong><span>Justesse</span></div>
+          <div class="metric"><strong>36×</strong><span>Moins de paramètres</span></div>
+        </div>
+        <ul class="bullets">
+          <li><svg class="ico"><use href="#i-spark"/></svg>SegFormer B0–B5, U-Net, VGG16-FCN8 et PSPNet entraînés et comparés sous PyTorch.</li>
+          <li><svg class="ico"><use href="#i-spark"/></svg>Validation croisée stratifiée 5-fold, correction d'une fuite de données dans le choix du seuil, ensembles par vote optimal.</li>
+          <li><svg class="ico"><use href="#i-spark"/></svg>Application Flask d'inférence et d'évaluation : visualisation des prédictions et des métriques côté serveur.</li>
+          <li><svg class="ico"><use href="#i-spark"/></svg>Partenaires : University of Hull, Inha University, UIB.</li>
+        </ul>
+        <div class="tags"><span>PyTorch</span><span>SegFormer</span><span>U-Net</span><span>PSPNet</span><span>mIoU / Dice</span><span>Flask</span></div>
+      </article>
+
+      <article class="project reveal">
+        <p class="project__tag mono">NLP · Recherche</p>
+        <h3 class="project__title">Surveillance syndromique multilingue</h3>
+        <p class="project__org">CIRAD – Projet SURSY, Montpellier</p>
+        <p class="project__desc">Pipelines de classification de corpus multilingues pour la détection de signaux sanitaires,
+          de la qualité des données jusqu'à la publication scientifique.</p>
+        <div class="metrics">
+          <div class="metric"><strong>0,99</strong><span>AUC</span></div>
+          <div class="metric"><strong>4 214</strong><span>Doublons supprimés</span></div>
+          <div class="metric"><strong>CNIA/PFIA 2026</strong><span>Publication</span></div>
+        </div>
+        <ul class="bullets">
+          <li><svg class="ico"><use href="#i-spark"/></svg>TF-IDF, SBERT, Transformers et modèles supervisés pour la classification de corpus.</li>
+          <li><svg class="ico"><use href="#i-spark"/></svg>Clustering UMAP + K-Means et suppression automatisée de 4 214 doublons.</li>
+          <li><svg class="ico"><use href="#i-spark"/></svg>Co-signature d'un article accepté à la CNIA/PFIA 2026.</li>
+        </ul>
+        <div class="tags"><span>SBERT</span><span>RoBERTa</span><span>Hugging Face</span><span>UMAP</span><span>K-Means</span><span>scikit-learn</span></div>
+      </article>
+
+      <article class="project reveal">
+        <p class="project__tag mono">Deep Learning · Industrie</p>
+        <h3 class="project__title">Détection et reconnaissance faciale</h3>
+        <p class="project__org">World Voice Group</p>
+        <p class="project__desc">Modèle de détection et d'identification de visages, industrialisé et exposé via une API REST.</p>
+        <div class="metrics">
+          <div class="metric"><strong>API REST</strong><span>Mise en production</span></div>
+        </div>
+        <ul class="bullets">
+          <li><svg class="ico"><use href="#i-spark"/></svg>Pipeline de détection puis d'identification des visages.</li>
+          <li><svg class="ico"><use href="#i-spark"/></svg>Mise à disposition du modèle via une API REST Flask.</li>
+        </ul>
+        <div class="tags"><span>Python</span><span>OpenCV</span><span>CNN</span><span>Flask</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Compétences ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="eyebrow">Compétences</p>
+      <h2 class="section__title">Stack technique</h2>
+
+      <div class="tabs" role="tablist" aria-label="Catégories de compétences">
+        <button class="tab is-active" role="tab" aria-selected="true" data-tab="ml">Deep Learning &amp; ML</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="cvnlp">Computer Vision &amp; NLP</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="data">Data &amp; Programmation</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="eval">Évaluation &amp; Fiabilité</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="tools">Outils &amp; Déploiement</button>
+      </div>
+
+      <div class="panel is-active" role="tabpanel" data-panel="ml">
+        <span>PyTorch</span><span>TensorFlow / Keras</span><span>scikit-learn</span><span>XGBoost</span><span>CNN</span><span>Transformers</span>
+      </div>
+      <div class="panel" role="tabpanel" data-panel="cvnlp" hidden>
+        <span>SegFormer</span><span>U-Net</span><span>VGG16-FCN8</span><span>PSPNet</span><span>OpenCV</span><span>Hugging Face</span><span>SBERT</span><span>RoBERTa</span>
+      </div>
+      <div class="panel" role="tabpanel" data-panel="data" hidden>
+        <span>Python</span><span>SQL</span><span>pandas</span><span>NumPy</span><span>Jupyter</span><span>PostgreSQL</span><span>MySQL</span><span>Talend</span>
+      </div>
+      <div class="panel" role="tabpanel" data-panel="eval" hidden>
+        <span>Validation croisée stratifiée</span><span>Calibration de seuil</span><span>Dice</span><span>IoU / mIoU</span><span>AUC-ROC / PR</span><span>Analyse d'erreurs</span>
+      </div>
+      <div class="panel" role="tabpanel" data-panel="tools" hidden>
+        <span>Flask</span><span>API REST</span><span>Git / GitHub</span><span>Linux</span><span>Power BI</span><span>LaTeX</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Parcours ===== -->
+  <section class="section section--alt" id="journey">
+    <div class="container">
+      <p class="eyebrow">Parcours</p>
+      <h2 class="section__title">Expériences &amp; formations</h2>
+
+      <h3 class="subhead">Expériences professionnelles</h3>
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="timeline__icon"><svg class="ico"><use href="#i-briefcase"/></svg></span>
+          <p class="timeline__date mono">2026</p>
+          <h4>Ingénieure de recherche IA / Computer Vision (stage)</h4>
+          <p class="timeline__org">GREAH, Université Le Havre Normandie</p>
+          <ul>
+            <li>Projet européen OCTOPUS : segmentation sémantique d'images sous-marines (Posidonia oceanica).</li>
+            <li>Meilleur modèle : 96,8 % de justesse, AUC-ROC 0,996, 36× moins de paramètres que la référence.</li>
+            <li>Application Flask d'inférence et d'évaluation des modèles.</li>
+          </ul>
+        </li>
+        <li class="reveal">
+          <span class="timeline__icon"><svg class="ico"><use href="#i-briefcase"/></svg></span>
+          <p class="timeline__date mono">2025</p>
+          <h4>Ingénieure NLP / Data Science (stage)</h4>
+          <p class="timeline__org">CIRAD – Projet SURSY, Montpellier</p>
+          <ul>
+            <li>Classification de corpus multilingues (TF-IDF, SBERT, Transformers), AUC 0,99.</li>
+            <li>Clustering UMAP + K-Means, suppression de 4 214 doublons.</li>
+            <li>Article scientifique accepté à la CNIA/PFIA 2026.</li>
+          </ul>
+        </li>
+        <li class="reveal">
+          <span class="timeline__icon"><svg class="ico"><use href="#i-briefcase"/></svg></span>
+          <p class="timeline__date mono">2023</p>
+          <h4>Développeuse Deep Learning – reconnaissance faciale</h4>
+          <p class="timeline__org">World Voice Group</p>
+          <ul>
+            <li>Détection et identification de visages, exposées via une API REST Flask.</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h3 class="subhead">Formations</h3>
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="timeline__icon"><svg class="ico"><use href="#i-cap"/></svg></span>
+          <p class="timeline__date mono">2024 – 2026</p>
+          <h4>Master 2 Informatique – parcours EIDD</h4>
+          <p class="timeline__org">Université Sorbonne Paris Nord — soutenu en septembre 2026</p>
+          <ul><li>Exploration Informatique des Données et Décisionnel.</li></ul>
+        </li>
+        <li class="reveal">
+          <span class="timeline__icon"><svg class="ico"><use href="#i-cap"/></svg></span>
+          <p class="timeline__date mono">2022 – 2024</p>
+          <h4>Sciences de l'ingénieur – Data Science &amp; IA</h4>
+          <p class="timeline__org">ENSPD, Douala</p>
+        </li>
+        <li class="reveal">
+          <span class="timeline__icon"><svg class="ico"><use href="#i-cap"/></svg></span>
+          <p class="timeline__date mono">2019 – 2022</p>
+          <h4>Licence Informatique – Sciences des données</h4>
+          <p class="timeline__org">Université de Yaoundé I</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== Publications ===== -->
+  <section class="section" id="publications">
+    <div class="container">
+      <p class="eyebrow">Recherche</p>
+      <h2 class="section__title">Publications &amp; travaux scientifiques</h2>
+      <div class="grid grid--2">
+        <article class="card reveal">
+          <svg class="ico ico--violet"><use href="#i-book"/></svg>
+          <h3>Classification de corpus pour la surveillance syndromique</h3>
+          <p class="card__meta mono">CNIA / PFIA 2026 — article co-signé</p>
+          <p>Travaux issus du projet CIRAD/SURSY : comparaison d'approches TF-IDF, SBERT et Transformers pour
+            la détection de signaux sanitaires dans des corpus multilingues.</p>
+        </article>
+        <article class="card reveal">
+          <svg class="ico ico--violet"><use href="#i-book"/></svg>
+          <h3>Segmentation sémantique par deep learning d'images sous-marines</h3>
+          <p class="card__meta mono">Mémoire de Master 2 — Université Sorbonne Paris Nord</p>
+          <p>Étude comparative SegFormer, U-Net, VGG16-FCN8 et PSPNet, protocole d'évaluation robuste et
+            déploiement d'une application d'inférence.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section section--contact" id="contact">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h2 class="section__title">Travaillons ensemble</h2>
+      <p class="section__lead">Disponible immédiatement pour un poste de Data Scientist, ML Engineer ou Ingénieure IA, en France entière.</p>
+
+      <ul class="contact-list">
+        <li><a href="mailto:rosaliecorinetomeyum@gmail.com"><svg class="ico ico--accent"><use href="#i-mail"/></svg>rosaliecorinetomeyum@gmail.com</a></li>
+        <li><a href="tel:+33605617816"><svg class="ico ico--accent"><use href="#i-phone"/></svg>(+33) 6 05 61 78 16</a></li>
+        <li><span><svg class="ico ico--accent"><use href="#i-pin"/></svg>Le Havre (76) – Mobile France entière</span></li>
+        <li><a href="https://www.linkedin.com/in/rosalie-corine-nkounghawe-tomeyum-a4bb55226/" target="_blank" rel="noopener"><svg class="ico ico--accent"><use href="#i-linkedin"/></svg>LinkedIn</a></li>
+        <li><a href="https://github.com/rosalie0309" target="_blank" rel="noopener"><svg class="ico ico--accent"><use href="#i-github"/></svg>GitHub</a></li>
+        <li><a href="https://rosaliedomaine.com"><svg class="ico ico--accent"><use href="#i-globe"/></svg>rosaliedomaine.com</a></li>
+      </ul>
+
+      <!-- Formulaire : envoyé via FormSubmit (gratuit, sans backend).
+           Le 1er envoi déclenche un mail d'activation à confirmer une seule fois. -->
+      <form class="form" id="contactForm" action="https://formsubmit.co/ajax/rosaliecorinetomeyum@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Nouveau message depuis rosaliedomaine.com">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form__row">
+          <label>Nom<input type="text" name="nom" placeholder="Votre nom" required></label>
+          <label>Email<input type="email" name="email" placeholder="vous@entreprise.com" required></label>
+        </div>
+        <label>Sujet<input type="text" name="sujet" placeholder="Opportunité, collaboration…"></label>
+        <label>Message<textarea name="message" rows="5" placeholder="Décrivez votre projet ou votre poste…" required></textarea></label>
+        <button class="btn btn--primary btn--block" type="submit">
+          <svg class="ico"><use href="#i-send"/></svg><span>Envoyer le message</span>
+        </button>
+        <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year">2026</span> Rosalie Corine Nkounghawe Tomeyum · rosaliedomaine.com</p>
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/in/rosalie-corine-nkounghawe-tomeyum-a4bb55226/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ico"><use href="#i-linkedin"/></svg></a>
+      <a href="https://github.com/rosalie0309" target="_blank" rel="noopener" aria-label="GitHub"><svg class="ico"><use href="#i-github"/></svg></a>
+      <a href="mailto:rosaliecorinetomeyum@gmail.com" aria-label="Email"><svg class="ico"><use href="#i-mail"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
